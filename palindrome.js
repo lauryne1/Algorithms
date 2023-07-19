@@ -7,14 +7,14 @@ function isPalindrome(char) {
     
 
     while (debut < fin) {
-        if (!char[debut].match(/[a-z0-9]/i)) {
-            debut++;
-            continue;
-        }
-        if (!char[fin].match(/[a-z0-9]/i)) {
-            fin--;
-            continue;
-        }
+        // if (!char[debut].match(/[a-z0-9]/i)) {
+        //     debut++;
+        //     continue;
+        // }
+        // if (!char[fin].match(/[a-z0-9]/i)) {
+        //     fin--;
+        //     continue;
+        // }
         if (char[debut] !== char[fin]) {
             return false;
         }
